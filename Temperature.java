@@ -19,10 +19,10 @@ public class Temperature
         temperatures.add(37.9);
         temperatures.add(39.3);
         
-        fever(temperatures);
+        // fever(temperatures);
     }
     
-    private String fever(ArrayList<Double>temperatures) {
+    // private String fever(ArrayList<Double>temperatures) {
         
-    }
+    // }
 }
