@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 /**
  * Write a description of class Temperature here.
@@ -12,13 +13,16 @@ public class Temperature
      */
     public Temperature()
     {
-        /*You import ArrayList
-         * Declare in so we can add the temperature
-         * Write an if statement that collects all int entered that are greater than 37.5
-         * Print the amount of int found
-         * Write a code that calculates the max. of all reported temperatures
-         * Print the answer
-         * 
-         */
+        ArrayList<Double> temperatures = new ArrayList<Double>();
+        temperatures.add(37.2);
+        temperatures.add(32.5);
+        temperatures.add(37.9);
+        temperatures.add(39.3);
+        
+        fever(temperatures);
+    }
+    
+    private String fever(ArrayList<Double>temperatures) {
+        
     }
 }
